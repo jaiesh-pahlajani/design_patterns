@@ -16,3 +16,9 @@
 1. Complicated objects aren't designed form scratch
 2. An existing design is a prototype.
 3. We make a copy of the prototype and customize it
+
+**Singleton**
+1. For some components it only makes sense to have one instance in the system i.e. Database repository. 
+2. Construction call is expensive , only do it once.
+3. Need to take care of lazy instantiation
+4. Adhere to DIP: depend on interfaces, not concrete types. 
