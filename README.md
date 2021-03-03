@@ -22,3 +22,8 @@
 2. Construction call is expensive , only do it once.
 3. Need to take care of lazy instantiation
 4. Adhere to DIP: depend on interfaces, not concrete types. 
+
+**Adapter**
+1. Determine the API you have and the API you need
+2. Create a component which aggregates(has a pointer to) the adaptee
+3. Intermediate representations can pile up: use caching and other optimizations
