@@ -27,3 +27,8 @@
 1. Determine the API you have and the API you need
 2. Create a component which aggregates(has a pointer to) the adaptee
 3. Intermediate representations can pile up: use caching and other optimizations
+
+**Bridge**
+1. Decouple abstraction from implementation
+2. Both can exist as hierarchies
+3. A stronger form of encapsulation
