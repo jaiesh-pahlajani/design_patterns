@@ -32,3 +32,15 @@
 1. Decouple abstraction from implementation
 2. Both can exist as hierarchies
 3. A stronger form of encapsulation
+
+**Composite**
+1. Objects use other objects fields/methods through embedding/composition
+2. Composition lets us make compound objects
+    - A mathematical expression composed of simple expressions 
+    - A shape group made of several different shapes
+3. Composite design pattern is used to treat both single (scalar) and composite objects uniformly
+    - Foo and []Foo have common APIs
+4. A mechanism for treating individual objects and composition of objects in a uniform manner.
+5. Some composed and singular objects need similar/identical behaviours
+6. Composed design pattern lets us treat both types of objects uniformly
+7. Iteration supported with iterator design pattern
