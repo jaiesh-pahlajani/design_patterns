@@ -1,6 +1,7 @@
 # design_patterns
 
 **Solid Principles**
+https://docs.google.com/document/d/1Dr63HIAsFJnxyW_89IKBQhH5-t96n3nV-rRvZq9ZGPw/edit
 
 **Builder**
 1. A builder is a separate component used for building an object.
@@ -44,3 +45,10 @@
 5. Some composed and singular objects need similar/identical behaviours
 6. Composed design pattern lets us treat both types of objects uniformly
 7. Iteration supported with iterator design pattern
+
+**Decorator**
+1. Want to augment an object with additional functionality
+2. Do not want to rewrite or alter existing code(OCP)
+3. Want to keep new functionality separate(SRP)
+4. Need to be able to interact with existing structures
+5. Inshort facilitates the addition of behaviours to individual objects through embedding
