@@ -52,3 +52,9 @@ https://docs.google.com/document/d/1Dr63HIAsFJnxyW_89IKBQhH5-t96n3nV-rRvZq9ZGPw/
 3. Want to keep new functionality separate(SRP)
 4. Need to be able to interact with existing structures
 5. Inshort facilitates the addition of behaviours to individual objects through embedding
+
+**Facade**
+1. Provides a simple easy to use interface over a large sophisticated body of code
+2. Provides a simplified API over a set of components
+3. Optional to expose internal details through facade
+4. May allows users to escalate to use more complex APIs if they need to. 
